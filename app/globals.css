@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0A1628;
+  --gold: #C9A84C;
+  --light-gray: #F5F5F5;
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-gold: var(--gold);
+  --color-light-gray: var(--light-gray);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+  --font-urdu: var(--font-urdu);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  color: #1a1a1a;
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+}
