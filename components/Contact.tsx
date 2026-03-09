@@ -235,7 +235,7 @@ export default function Contact() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="mt-16 bg-gradient-to-r from-gold to-gold/90 p-8 rounded-lg text-center shadow-xl"
         >
-          <h3 className="font-serif text-3xl font-bold text-navy mb-2">
+          <h3 className="font-serif text-3xl font-bold text-navy mb-6">
             Free Consultancy Available
           </h3>
           <p className="font-urdu text-2xl text-navy/80" dir="rtl">
